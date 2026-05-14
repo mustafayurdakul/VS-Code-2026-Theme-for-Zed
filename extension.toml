@@ -1,6 +1,6 @@
 id = "vs-code-2026"
-name = "Visual Studio Code 2026"
-description = "A port of the Visual Studio Code 2026 light and dark themes for Zed"
+name = "VS Code 2026"
+description = "A port of the VS Code 2026 light and dark themes for Zed"
 version = "0.1.0"
 schema_version = 1
 authors = ["Mustafa Yurdakul"]
