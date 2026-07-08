@@ -39,9 +39,14 @@ Both variants share GitHub-style syntax highlighting: red keywords, purple funct
 ```
 .
 ├── extension.toml                       # Zed extension manifest
-└── themes/
-    └── vs-code-2026.json                # Both Dark and Light variants
+├── themes/
+│   └── vs-code-2026.json                # Both Dark and Light variants
+└── reference/
+    ├── 2026-dark.json                   # Upstream VS Code 2026 Dark theme
+    └── 2026-light.json                  # Upstream VS Code 2026 Light theme
 ```
+
+The `reference/` folder holds the original VS Code theme definitions from [microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes) that this port is based on. They are kept out of `themes/` because Zed loads every JSON file in that folder as a Zed theme.
 
 ## Credits
 
